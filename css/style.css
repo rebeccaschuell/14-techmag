@@ -12,11 +12,13 @@ body {
   margin: auto;
   background-color: black;
   color: white;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 header {
   border-color: white;
-  background-image: ;
+  background-image: url(img/titre.jpg);
 }
 
 .titre {
