@@ -10,4 +10,36 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background-color: black;
+  color: white;
+}
+
+header {
+  border-color: white;
+  background-image: ;
+}
+
+.titre {
+
+}
+
+.premierdiv {
+  background-color: #00fca6;
+  color: #0e6848;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.deuxiemediv {
+  background-color: white;
+  color: black;
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 40px;
 }
