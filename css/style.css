@@ -12,39 +12,44 @@ body {
   margin: auto;
   background-color: black;
   color: white;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 28px;
+  margin-right: 28px;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 header {
   border-color: white;
-  background-image: url(img/titre.jpg);
-}
-
-.titre {
-
+  background-image: url(../img/titre.jpg);
+  background-position: cover;
+  background-size: auto;
+  border: solid 2px white;
+  margin-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 54px;
+  padding-left: 28px;
+  padding-right: 28px; 
 }
 
 .premierdiv {
   background-color: #00fca6;
   color: #0e6848;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 60px;
-  padding-top: 60px;
-  font-size: 32px;
-  margin-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .deuxiemediv {
   background-color: white;
   color: black;
-  padding-top: 60px;
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-bottom: 60px;
-  margin-bottom: 40px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .last {
@@ -55,10 +60,19 @@ header {
   padding-left: 190px;
   padding-right: 190px;
   font-size: 22px;
-
-
 }
 
 img {
-  display: block;
+  width: 100%;
 }
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 18px;
+}
+
+figure {
+  margin: 0px;
+}
+
+
