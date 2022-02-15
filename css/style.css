@@ -24,11 +24,10 @@ body {
   background-image: url(../img/titre.jpg);
   border: solid 2px white;
   margin: 20px 0;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   padding-left: 30px;
   padding-right: 30px; 
-  filter: opacity(50%);
 }
 
 .site-header h1 {
@@ -118,7 +117,7 @@ img {
 }
 
 figure {
-  margin: 0px 0px 32px;
+  margin: 0px 0px 16px;
   box-shadow: 2px 2px 6px gray;
 }
 
