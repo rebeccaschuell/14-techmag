@@ -1,6 +1,7 @@
 /*
   font-family: 'Montserrat', sans-serif; 100it/800
   font-family: 'Open Sans', sans-serif; 400/400it/700/700it
+  font-family: 'Montserrat', sans-serif;
 */
 html {
   scroll-behavior: smooth;
@@ -13,29 +14,33 @@ body {
   color: white;
   margin-left: 28px;
   margin-right: 28px;
-  font-family: sans-serif;
   font-size: 16px;
   margin: auto;
-  font-family: 'Montserrat', sans-serif;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400px;
 }
 
 .site-header {
-  border-color: white;
   background-image: url(../img/titre.jpg);
   border: solid 2px white;
-  margin-bottom: 20px;
+  margin: 20px 0;
   padding-top: 55px;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
   padding-left: 30px;
-  padding-right: 28px; 
+  padding-right: 30px; 
   filter: opacity(50%);
+}
+
+.site-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800px;
+  font-size: 25px;
 }
 
 .number {
   color:#2afca6;
-  font-family: montserrat;
-  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100px;
   font-style: italic;
 }
 
@@ -48,35 +53,44 @@ body {
   color: #0e6848;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 45px;
-  padding-top: 12px;
+  padding-bottom: 32px;
+  padding-top: 16px;
   font-size: 16px;
+  font-weight: 800px;
   margin-bottom: 20px;
   border: solid 1px #28f09e;
+}
+
+.presentation h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800px;
+  font-size: 16px;
 }
 
 article {
   background-color: white;
   color: black;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
+  padding: 30px;
   margin-bottom: 20px;
   font-size: 16px;
   border: solid 1px #f2f2f2;
 }
 
 article h1 {
-  font-size: 18px
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800px;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 
 .info {
   font-size: 12px;
+  margin-top: 20px;
   color: #a5a5a5;
 }
 
@@ -101,19 +115,22 @@ h2 {
 
 img {
   width: 100%;
-  box-shadow: 2px 2px 6px gray;
 }
 
 figure {
-  margin: 0px;
-  margin-bottom: 32px;
+  margin: 0px 0px 32px;
+  box-shadow: 2px 2px 6px gray;
+}
+
+figcaption {
   font-size: 12px;
+  height: 40px;
+  margin: 5px 10px;
 }
 
 button {
   background-color: #444444;
   border: solid 1px #383838;
-  font-family: montserrat;
   padding-top: 4px;
   padding-left: 12px;
   padding-bottom: 4px;
@@ -124,16 +141,19 @@ button a {
   color: #ffffff;
   font-size: 10px;
   text-decoration: none;
+  font-weight: 800px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer {
+  background-color: black;
+  border: 2px solid #2afca6;
   padding-top: 20px;
   padding-bottom: 18px;
   background-color: black;
   border: 2px solid #2afca6;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   padding-left: 114px;
   font-size: 10px;
 }
-
