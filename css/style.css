@@ -69,7 +69,10 @@ body {
 article {
   background-color: white;
   color: black;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   margin-bottom: 20px;
   font-size: 16px;
   border: solid 1px #f2f2f2;
